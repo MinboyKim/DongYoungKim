@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+#homeicon {
+  width: 20px;
+  height: 20px;
+}
+
+.title_author {
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.title_author span:first-child {
+  margin-right: 2px;
+}
+.title_author span:last-child {
+  margin-right: 1px;
+}

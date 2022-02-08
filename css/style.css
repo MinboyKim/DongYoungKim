@@ -1,0 +1,19 @@
+@import "reset.css";
+@import "slide.css";
+@import "container.css";
+@import "title.css";
+@import "banner.css";
+@import "profile.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.canvas {
+  margin: 0 auto;
+  padding: 50px;
+  width: 1200px;
+}
+.hidden {
+  display: none;
+}

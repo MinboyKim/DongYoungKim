@@ -1,0 +1,27 @@
+.outer {
+  width: 1000px;
+  height: 660px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.inner-list {
+  display: flex;
+  transition: 1s ease-out;
+  height: 100%;
+}
+
+.inner {
+  padding: 0px;
+}
+
+.button-list {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-list button {
+  border: none;
+  color: rgb(122, 124, 124);
+  background-color: white;
+}
