@@ -4,7 +4,8 @@
 }
 
 .dot {
-  margin-right: 75px;
+  margin-right: 45px;
+  margin-left: 30px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
