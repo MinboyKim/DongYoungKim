@@ -25,3 +25,8 @@
   color: rgb(122, 124, 124);
   background-color: white;
 }
+
+.explanation {
+  margin-top: 20px;
+  font-weight: 200;
+}
