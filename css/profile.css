@@ -8,8 +8,9 @@
 
 .profile {
   display: flex;
+  flex-direction: column;
   border-bottom: 1px solid black;
-  padding-bottom: 40px;
+  padding-bottom: 5px;
   margin-bottom: 40px;
 }
 
@@ -18,6 +19,16 @@
   display: flex;
   flex-direction: column;
   font-weight: 200;
+  margin-bottom: 100px;
+}
+.email {
+  margin-top: 40px;
+}
+
+.vitae {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 200;
+  font-size: large;
 }
 
 .profile__whami span:first-child {
@@ -25,6 +36,17 @@
 }
 
 .career {
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 200;
+  display: flex;
   font-size: large;
+  line-height: 25px;
+}
+
+.career__first {
+  margin-right: 150px;
+}
+
+.career p {
+  margin-bottom: 40px;
 }
