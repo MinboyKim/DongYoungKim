@@ -3,6 +3,7 @@
   height: 660px;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
 }
 
 .inner-list {
@@ -38,4 +39,24 @@
   width: 1000px;
   height: 660px;
   object-fit: contain;
+}
+
+.btn1 {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 500px;
+  height: 660px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.btn2 {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 500px;
+  height: 660px;
+  opacity: 0;
+  z-index: 1;
 }
