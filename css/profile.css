@@ -21,8 +21,12 @@
   font-weight: 200;
   margin-bottom: 100px;
 }
+.profile__whami p {
+  font-size: small;
+}
 .email {
   margin-top: 40px;
+  font-size: small;
 }
 
 .vitae {
@@ -39,12 +43,12 @@
   font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 200;
   display: flex;
-  font-size: large;
+  font-size: small;
   line-height: 25px;
 }
 
 .career__first {
-  margin-right: 150px;
+  margin-right: 180px;
 }
 
 .career p {
